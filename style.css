@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins';
+  line-height: 1.4;
+  font-weight: 400;
+  font-size: 16px;
+  height: 100vh;
+  background-color: #10142B;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+}
+
+.content .small {
+  background: -webkit-gradient(linear, left top, left bottom, from(#2A3263), to(#2d3569));
+  background: linear-gradient(to bottom, #2A3263, #2d3569);
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 5px 0px 20px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 0px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.content .small .btn {
+  color: #10142B;
+  text-decoration: none;
+  background: #f4f4f46c;
+  padding: 10px 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.content .small .btn:hover {
+  background-color: #D6DBF9;
+}
+
+.content .big {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.content .big .quotes {
+  color: #D6DBF9;
+  font-size: 45px;
+  font-weight: 300;
+  max-width: 500px;
+}
+
+.content .main {
+  background-color: #ffffff15;
+  width: 600px;
+  height: 300px;
+  z-index: -999;
+  position: absolute;
+  top: 30%;
+  left: -2rem;
+}
+
+.me {
+  position: absolute;
+  bottom: 5rem;
+  right: 10rem;
+  color: #fff;
+}
+
+.me h3 {
+  position: relative;
+  font-weight: 300;
+}
+
+.me h3::after {
+  position: absolute;
+  content: '';
+  border: 1px solid #ffffff34;
+  width: 100%;
+  top: 40%;
+  left: 8rem;
+}
+/*# sourceMappingURL=style.css.map */
